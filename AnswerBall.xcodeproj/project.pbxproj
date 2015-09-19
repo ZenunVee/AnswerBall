@@ -14,6 +14,7 @@
 		1840602C1BABE6E6000B62ED /* AnswerBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1840602B1BABE6E6000B62ED /* AnswerBallTests.swift */; };
 		184060371BABE6E6000B62ED /* AnswerBallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184060361BABE6E6000B62ED /* AnswerBallUITests.swift */; };
 		184060451BABE7B3000B62ED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184060441BABE7B3000B62ED /* MainViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		184060471BADE4A0000B62ED /* shakesound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 184060461BADE4A0000B62ED /* shakesound.wav */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		184060361BABE6E6000B62ED /* AnswerBallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerBallUITests.swift; sourceTree = "<group>"; };
 		184060381BABE6E6000B62ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		184060441BABE7B3000B62ED /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		184060461BADE4A0000B62ED /* shakesound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shakesound.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				1840601D1BABE6E6000B62ED /* Assets.xcassets */,
 				1840601F1BABE6E6000B62ED /* LaunchScreen.storyboard */,
 				184060221BABE6E6000B62ED /* Info.plist */,
+				184060461BADE4A0000B62ED /* shakesound.wav */,
 			);
 			path = AnswerBall;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				184060211BABE6E6000B62ED /* LaunchScreen.storyboard in Resources */,
 				1840601E1BABE6E6000B62ED /* Assets.xcassets in Resources */,
 				1840601C1BABE6E6000B62ED /* Main.storyboard in Resources */,
+				184060471BADE4A0000B62ED /* shakesound.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
