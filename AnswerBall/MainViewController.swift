@@ -66,7 +66,7 @@ class MainViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     
-    @IBAction func getAnswerTapped(sender: UIButton) {
+    @IBAction func getAnswerTapped(sender: AnyObject) {
         
         let random = Int(arc4random_uniform(UInt32(answers.count)))
         
@@ -78,6 +78,10 @@ class MainViewController: UIViewController, AVAudioPlayerDelegate {
         } catch {
             return
         }
+    }
+    
+    override func motionBegan(motion: UIEventSubtype, withEvent event: UIEvent?) {
+        getAnswerTapped(self)
     }
     
     func playSound(fileName: String, fileExtension: String) throws {
